@@ -18,12 +18,10 @@ body {
 nav {
   display: flex;
   justify-content: space-around;
-  background-image: linear-gradient(
-    rgba(85, 85, 85, 0.13),
-    rgba(0, 0, 0, 0.16)
-  );
+  background-image: linear-gradient(rgba(85, 85, 85, 0.13),
+      rgba(0, 0, 0, 0.16));
   background-blend-mode: soft-light;
-  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 9px 34px rgba(0, 0, 0, 0.3);
 }
 
 .nav-home {
@@ -79,7 +77,6 @@ nav img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 8px auto;
 }
 
 .images div {
@@ -88,41 +85,51 @@ nav img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 45%;
   height: 50vh;
   border-radius: 14px;
 }
 
 .img-item-1 {
+  background-image: url("./Assets/Images/pexels-christina-morillo-1181681.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  margin: 5px 5px 10px 5px;
+}
+
+.img-item-2 {
+  background-image: url("./Assets/Images/pexels-janko-ferlic-590493.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  margin: 5px 5px 10px 5px;
+}
+
+.img-item-3 {
   background-image: url("./Assets/Images/pexels-cottonbro-4855427.jpg");
   background-position: center;
   background-size: cover;
   background-blend-mode: soft-light;
+  margin: 5px 5px 10px 5px;
 }
-.img-item-2 {
-  background-image: url("");
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: soft-light;
-}
-.img-item-3 {
-  background-image: url("");
-  background-position: center;
-  background-size: cover;
-  background-blend-mode: soft-light;
-}
+
 .img-item-4 {
-  background-image: url("");
+  background-image: url("./Assets/Images/pexels-rafael-cosquiere-2041540.jpg");
   background-position: center;
   background-size: cover;
   background-blend-mode: soft-light;
+  margin: 5px 5px 10px 5px;
 }
+
 .img-item-5 {
-  background-image: url("");
+  background-image: url("./Assets/Images/pexels-polona-mitar-1837726.jpg");
   background-position: center;
   background-size: cover;
   background-blend-mode: soft-light;
+  margin: 5px 5px 10px 5px;
 }
+
 .main-wrapper {
-  margin: 3px auto;
+  margin: 10px auto;
 }
