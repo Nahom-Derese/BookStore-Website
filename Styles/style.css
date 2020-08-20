@@ -236,6 +236,23 @@ nav .nav-container {
   width: 10vh;
   padding: 2px;
   margin-bottom: 5px;
+  -webkit-transition: all 200ms ease 0s;
+  transition: all 200ms ease 0s;
+}
+
+.container .page-1 .Icons .Icon-item #item-1:hover {
+  -webkit-filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4) brightness(1);
+          filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4) brightness(1);
+}
+
+.container .page-1 .Icons .Icon-item #item-2:hover {
+  -webkit-filter: invert(0.5) sepia(1) hue-rotate(250deg) saturate(4) brightness(1);
+          filter: invert(0.5) sepia(1) hue-rotate(250deg) saturate(4) brightness(1);
+}
+
+.container .page-1 .Icons .Icon-item #item-3:hover {
+  -webkit-filter: invert(0.5) sepia(1) hue-rotate(100deg) saturate(4) brightness(1);
+          filter: invert(0.5) sepia(1) hue-rotate(100deg) saturate(4) brightness(1);
 }
 
 .container .page-2 {

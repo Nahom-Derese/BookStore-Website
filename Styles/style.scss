@@ -7,6 +7,15 @@
   align-items: $align;
 }
 
+@mixin SvgColorPicker($HuePick){
+  filter: 
+          invert(0.5) 
+          sepia(1) 
+          hue-rotate($HuePick) 
+          saturate(4) 
+          brightness(1);
+}
+
 * {
   padding: 0;
   box-sizing: border-box;
@@ -101,6 +110,7 @@ nav {
     background-position: right;
     @include FlexStuff(space-around, flex-start);
     flex-direction: column;
+    
     .text-container {
       width: 85%;
       margin: auto;
@@ -181,6 +191,17 @@ nav {
           width: 10vh;
           padding: 2px;
           margin-bottom: 5px;
+          transition: all 200ms ease 0s;
+        }
+
+        #item-1:hover{
+          @include SvgColorPicker(200deg);
+        }
+        #item-2:hover{
+          @include SvgColorPicker(250deg);
+        }
+        #item-3:hover{
+          @include SvgColorPicker(100deg);
         }
       }
     }
